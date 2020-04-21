@@ -1,0 +1,22 @@
+{
+  "name": "boringcodingproject1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberteuler/boringCodingProject1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roberteuler/boringCodingProject1/issues"
+  },
+  "homepage": "https://github.com/roberteuler/boringCodingProject1#readme",
+  "dependencies": {
+    "bulma": "^0.8.2"
+  }
+}

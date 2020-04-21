@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>4 Gewinnt</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="game.js" type="module"></script>
+  </head>
+  <body>
+
+   <div class="navbar">
+       <div class="navbar-brand">
+           <div class="navbar-burger"></div>
+       </div>
+       <div class="navbar-start">
+           <div class="navbar-item">
+            <button class="button is-dark is-medium">Start</button>      
+           </div>
+        <div class="navbar-item">
+            <button class="button is-dark is-medium">Reset</button>
+        </div> 
+    </div>
+   </div> 
+  <section class="section">
+    <div class="container">
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical">
+                <div class="tile is-parent">
+                    <div class="tile is-1 is-child"><button id="0" class="button is-info  playButton"></button></div>
+                    <div class="tile is-1 is-child"><button id="1" class="button is-info  playButton"></button></div>
+                    <div class="tile is-1 is-child"><button id="2" class="button is-info  playButton"></button></div>
+                    <div class="tile is-1 is-child"><button id="3" class="button is-info  playButton"></button></div>
+                    <div class="tile is-1 is-child"><button id="4" class="button is-info  playButton"></button></div>
+                    <div class="tile is-1 is-child"><button id="5" class="button is-info  playButton"></button></div>
+                    <div class="tile is-1 is-child"><button id="6" class="button is-info  playButton"></button></div>
+                </div>
+                <div class="tile is-parent">
+                    <div class="tile is-1 is-child"><button id="0-0" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="1-0" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="2-0" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="3-0" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="4-0" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="5-0" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="6-0" class="button is-primary field"></button></div>
+                </div>
+                <div class="tile is-parent">
+                    <div class="tile is-1 is-child"><button id="0-1" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="1-1" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="2-1" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="3-1" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="4-1" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="5-1" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="6-1" class="button is-primary field"></button></div>
+                </div>
+                <div class="tile is-parent">
+                    <div class="tile is-1 is-child"><button id="0-2" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="1-2" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="2-2" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="3-2" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="4-2" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="5-2" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="6-2" class="button is-primary field"></button></div>
+                </div>
+                <div class="tile is-parent">
+                    <div class="tile is-1 is-child"><button id="0-3" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="1-3" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="2-3" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="3-3" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="4-3" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="5-3" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="6-3" class="button is-primary field"></button></div>
+                </div>
+                <div class="tile is-parent">
+                    <div class="tile is-1 is-child"><button id="0-4" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="1-4" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="2-4" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="3-4" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="4-4" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="5-4" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="6-4" class="button is-primary field"></button></div>
+                </div>
+                <div class="tile is-parent">
+                    <div class="tile is-1 is-child"><button id="0-5" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="1-5" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="2-5" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="3-5" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="4-5" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="5-5" class="button is-primary field"></button></div>
+                    <div class="tile is-1 is-child"><button id="6-5" class="button is-primary field"></button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  </body>
+</html>
